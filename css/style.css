@@ -46,14 +46,14 @@ main{
     flex-grow: 2;
     display: flex;
     flex-wrap: wrap;
-    padding: 1em;
+    /* padding: 1em; */
     border-radius: 1em;
     justify-content: space-evenly;
 
 }
 article{
     max-width: 25em;
-    max-height: 500px;
+    /* max-height: 500px; */
     margin: 1em;
     padding: 1em;
     background-color: burlywood;
@@ -118,15 +118,17 @@ footer img{
         
     }
     header{
-        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
     }
     article{
         width: 100%;
-        max-height: 500px;
-        margin: 1em;
-        padding: 1em;
+        /* max-height: 500px; */
+        margin: 0;
+        margin-bottom: 1em;
+        /* padding-top: 1em; */
         background-color: burlywood;
-        border-radius: 1em;
+        border-radius: 0em;
     }
 
 }
