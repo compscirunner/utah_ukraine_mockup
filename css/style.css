@@ -85,7 +85,7 @@ footer img{
 }
 .hero_image{
     flex-grow: 2;
-    background-image: url("/images/sunflowers.jpg");
+    background-image: url("../images/sunflowers.jpg");
     background-size: cover;
     height: 400px;
 }
