@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    
+    /* width: 100vw; */
+    /* background-color: aqua; */
+    /* height: 100vh; */
+}
+.wrapper{
+    min-height: 100vh;
+    /* width: 100vw; */
+}
+ul {
+    list-style: none;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0057b7;
+    font-size: x-large;
+    color:	#ffd700;
+    padding: 0 1em;
+    font-family: 'Prompt', sans-serif;
+    line-height: 2.5em;
+    /* width: 100%; */
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li{
+    padding: .5em;
+}
+main{
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    border-radius: 1em;
+    justify-content: space-evenly;
+
+}
+article{
+    max-width: 25em;
+    max-height: 500px;
+    margin: 1em;
+    padding: 1em;
+    background-color: burlywood;
+    border-radius: 1em;
+}
+article img{
+    width: 250px;
+}
+article h1{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    padding: .3em;
+}
+article ol{
+    padding: 1em;
+    
+}
+footer{
+    display:flex;
+    justify-content: center;
+}
+footer img{
+    width: 3rem;
+    
+}
+#donate{
+    border-style: groove;
+    border-radius: .5em;
+}
+.hero_image{
+    flex-grow: 2;
+    background-image: url("/images/sunflowers.jpg");
+    background-size: cover;
+    height: 400px;
+}
+#calendar{
+    font-family: 'Prompt', sans-serif;
+    /* text-align: center; */
+    background-color: #0057b7;
+    padding: 10px;
+}
+#aboutUs{
+    background-color: #ffd700;
+    font-family: 'Prompt', sans-serif;
+    padding: 10px;
+}
+.whoWeAre{
+    display: flex;
+
+}
+#aboutUs img{
+    padding: 1em;
+    
+}
+
+@media only screen and (max-width:600px) {
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    header{
+        justify-content: center;
+    }
+    article{
+        width: 100%;
+        max-height: 500px;
+        margin: 1em;
+        padding: 1em;
+        background-color: burlywood;
+        border-radius: 1em;
+    }
+
+}
