@@ -79,9 +79,10 @@ footer img{
     width: 3rem;
     
 }
-#donate{
+.donate{
     border-style: groove;
     border-radius: .5em;
+    padding-left 1em;
 }
 .hero_image{
     flex-grow: 2;
