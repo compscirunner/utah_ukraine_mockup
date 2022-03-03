@@ -14,8 +14,28 @@ body{
     min-height: 100vh;
     /* width: 100vw; */
 }
+.help_orgs{
+    padding: 1em;
+}
+a{
+    color:black;
+    font-size: larger;
+}
+.help_orgs li{
+    padding: .5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#org_name{
+    font-family:calibri; 
+    font-size:2.2em;
+    font-weight: bold;
+}
 ul {
     list-style: none;
+}
+h2{
+    font-family:calibri; 
+    font-size:200%;
 }
 header{
     display: flex;
@@ -47,29 +67,37 @@ main{
     display: flex;
     flex-wrap: wrap;
     /* padding: 1em; */
-    border-radius: 1em;
+    /* border-radius: 1em; */
     justify-content: space-evenly;
+    
+    background-color: #0057b7;
 
 }
 article{
-    max-width: 25em;
+    width: 25em;
     /* max-height: 500px; */
     margin: 1em;
     padding: 1em;
     background-color: burlywood;
     border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 article img{
-    width: 250px;
+    /* width: 25em; */
+    width: 80%;
 }
-article h1{
+article img{
+    padding: .5em;
+}
+article h2{
     font-family: 'Prompt', sans-serif;
     text-align: center;
-    padding: .3em;
+    padding: .5em;
 }
 article ol{
     padding: 1em;
-    
 }
 footer{
     display:flex;
@@ -82,7 +110,7 @@ footer img{
 .donate{
     border-style: groove;
     border-radius: .5em;
-    padding-left 1em;
+    padding-left: 1em;
 }
 .hero_image{
     flex-grow: 2;
@@ -90,24 +118,74 @@ footer img{
     background-size: cover;
     height: 400px;
 }
+
 #calendar{
     font-family: 'Prompt', sans-serif;
     /* text-align: center; */
     background-color: #0057b7;
     padding: 10px;
 }
+#calendar a{
+    color:#ffd700
+}
 #aboutUs{
     background-color: #ffd700;
     font-family: 'Prompt', sans-serif;
     padding: 10px;
+    
 }
 .whoWeAre{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center
 
 }
+.whoWeAre span{
+    font-weight: bold;
+}
+
 #aboutUs img{
+    max-width:80%;
+    max-height:80%;
+    object-fit: cover;
+    flex:1;
+   
+}
+aside{
+    max-width: 45em;
+    font-size: larger;
+}
+#help{
+    background-color: rgb(243, 136, 136);
+    /* border-radius: 1em; */
+    padding: 1em;;
+}
+#help h1{
+    font-family:calibri;
+    padding-bottom: 1em;
+    /* padding: 1em; */
+}
+#help p{
+    font-family:calibri; 
+    font-size: larger;
+    color:rgb(0, 0, 0);
     padding: 1em;
-    
+}
+.aboutText{
+    padding: 1em;
+    flex:1;
+    min-width: 300px;
+}
+.aboutText ol{
+    padding: 1em;
+}
+.aboutText li{
+    padding: .5em;
+}
+#events{
+    padding: 1em;
+    flex:.5;
 }
 
 @media only screen and (max-width:600px) {
