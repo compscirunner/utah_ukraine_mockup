@@ -46,7 +46,7 @@ header{
     font-size: x-large;
     color:	#ffd700;
     padding: 0 1em;
-    font-family: 'Prompt', sans-serif;
+    font-family: calibri, sans-serif;
     line-height: 2.5em;
     /* width: 100%; */
 }
@@ -92,7 +92,7 @@ article img{
     padding: .5em;
 }
 article h2{
-    font-family: 'Prompt', sans-serif;
+    font-family: calibri, sans-serif;
     text-align: center;
     padding: .5em;
 }
@@ -120,7 +120,7 @@ footer img{
 }
 
 #calendar{
-    font-family: 'Prompt', sans-serif;
+    font-family: calibri, sans-serif;
     /* text-align: center; */
     background-color: #0057b7;
     padding: 10px;
@@ -130,7 +130,7 @@ footer img{
 }
 #aboutUs{
     background-color: #FFEEBB;
-    font-family: 'Prompt', sans-serif;
+    font-family: calibri, sans-serif;
     padding: 10px;
     
 }
