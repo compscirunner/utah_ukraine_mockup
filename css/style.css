@@ -51,21 +51,24 @@ header {
     color: #ffd700;
     padding: 0 1em;
     font-family: calibri, sans-serif;
-    line-height: 2.5em;
+    line-height: 3em;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    line-height: 0%;
 }
 
 nav ul {
     display: flex;
     flex-wrap: wrap;
+    /* align-items: center; */
 }
 
 nav li {
-    padding: .5em;
+    padding-left: 1em;
+    display: inline-block;
 }
 
 main {
@@ -115,11 +118,21 @@ footer img {
     padding: .5em;
 
 }
+.donate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.donate a{
+    padding: 0;
 
-.donate {
-    border-style: groove;
+}
+.donate img {
+    /* border-style: groove;
     border-radius: .5em;
-    padding-left: .5em;
+    padding-left: .5em; */
+    
+    height: 2em;
 }
 
 .hero_image {
