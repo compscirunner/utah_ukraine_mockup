@@ -1,134 +1,244 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
-    display:flex;
+
+body {
+    display: flex;
     flex-direction: column;
-    
-    /* width: 100vw; */
-    /* background-color: aqua; */
-    /* height: 100vh; */
 }
-.wrapper{
+
+.wrapper {
     min-height: 100vh;
-    /* width: 100vw; */
 }
+
+.help_orgs {
+    padding: 1em;
+}
+
+a {
+    color: black;
+    font-size: larger;
+}
+
+.help_orgs li {
+    padding: .5em;
+    font-family: calibri, sans-serif;
+}
+
+#org_name {
+    font-family: calibri;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
 ul {
     list-style: none;
 }
-header{
+
+h2 {
+    font-family: calibri;
+    font-size: 200%;
+}
+
+header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #0057b7;
     font-size: x-large;
-    color:	#ffd700;
+    color: #ffd700;
     padding: 0 1em;
-    font-family: 'Prompt', sans-serif;
+    font-family: calibri, sans-serif;
     line-height: 2.5em;
-    /* width: 100%; */
 }
-nav a{
-    color:white;
+
+nav a {
+    color: white;
     text-decoration: none;
 }
-nav ul{
+
+nav ul {
     display: flex;
     flex-wrap: wrap;
 }
 
-nav li{
+nav li {
     padding: .5em;
 }
-main{
+
+main {
     flex-grow: 2;
     display: flex;
     flex-wrap: wrap;
-    /* padding: 1em; */
-    border-radius: 1em;
     justify-content: space-evenly;
-
+    background-color: #0057b7;
 }
-article{
-    max-width: 25em;
-    /* max-height: 500px; */
+
+article {
+    width: 33em;
     margin: 1em;
     padding: 1em;
-    background-color: burlywood;
+    background-color: #FFFFFF;
     border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-article img{
-    width: 250px;
+
+article img {
+    width: 80%;
 }
-article h1{
-    font-family: 'Prompt', sans-serif;
+
+article img {
+    padding: .5em;
+}
+
+article h2 {
+    font-family: calibri, sans-serif;
     text-align: center;
-    padding: .3em;
+    padding: .5em;
 }
-article ol{
+
+article ol {
     padding: 1em;
-    
 }
-footer{
-    display:flex;
+
+footer {
+    display: flex;
     justify-content: center;
 }
-footer img{
+
+footer img {
     width: 3rem;
-    
+    padding: .5em;
+
 }
-#donate{
+
+.donate {
     border-style: groove;
     border-radius: .5em;
+    padding-left: .5em;
 }
-.hero_image{
+
+.hero_image {
     flex-grow: 2;
-    background-image: url("../images/sunflowers.jpg");
+    background-image: url("images/ukraine_header.jpg");
     background-size: cover;
     height: 400px;
 }
-#calendar{
-    font-family: 'Prompt', sans-serif;
-    /* text-align: center; */
+
+#calendar {
+    font-family: calibri, sans-serif;
     background-color: #0057b7;
     padding: 10px;
 }
-#aboutUs{
-    background-color: #ffd700;
-    font-family: 'Prompt', sans-serif;
-    padding: 10px;
+
+#calendar a {
+    color: #ffd700
 }
-.whoWeAre{
-    display: flex;
+
+#aboutUs {
+    background-color: #FFEEBB;
+    font-family: calibri, sans-serif;
+    padding: 10px;
 
 }
-#aboutUs img{
+
+.whoWeAre {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.whoWeAre span {
+    font-weight: bold;
+}
+
+#aboutUs img {
+    max-width: 60%;
+    object-fit: cover;
+}
+
+aside {
+    max-width: 45em;
+    font-size: larger;
+}
+
+#help {
+    background-color: #FFEEBB;
     padding: 1em;
-    
+}
+
+#help h1 {
+    font-family: calibri;
+    padding-bottom: 1em;
+}
+
+#help p {
+    font-family: calibri;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+}
+
+.aboutText {
+    padding: 1em;
+    flex: 1;
+    min-width: 350px;
+    max-width: 700px;
+}
+
+.aboutText ol {
+    padding: 1em;
+}
+
+.aboutText li {
+    padding: .5em;
+}
+
+#events {
+    padding: 1em;
+    flex: .5;
 }
 
 @media only screen and (max-width:600px) {
-    
-    nav ul{
+    nav ul {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        
     }
-    header{
+
+    header {
         flex-direction: column;
         align-items: flex-start;
     }
-    article{
+
+    article {
         width: 100%;
-        /* max-height: 500px; */
         margin: 0;
         margin-bottom: 1em;
-        /* padding-top: 1em; */
-        background-color: burlywood;
+        background-color: #ffffff;
         border-radius: 0em;
     }
+    .aboutText {
+        padding: 1em;
+        flex: 1;
+        min-width: 200px;
+    }
+}
 
+@media only screen and (max-width:900px) {
+    .whoWeAre {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction:column;        
+    }
+    #aboutUs img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
 }
