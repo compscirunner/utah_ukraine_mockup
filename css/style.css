@@ -136,7 +136,7 @@ footer img {
 }
 
 #calendar a {
-    color: #ffd700
+    /* color: #ffd700 */
 }
 
 #aboutUs {
@@ -166,9 +166,18 @@ aside {
     max-width: 45em;
     font-size: larger;
 }
-
-#help {
+.help_calendar{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #FFEEBB;
+    padding: 1em;
+
+}
+.calendar h2{
+    padding-bottom: .3em;
+}
+#help {
+    /* background-color: #FFEEBB; */
     padding: 1em;
 }
 
@@ -240,5 +249,8 @@ aside {
         max-width: 100%;
         max-height: 100%;
         object-fit: cover;
+    }
+    .help_calendar{
+        justify-content: center
     }
 }
