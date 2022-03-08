@@ -151,6 +151,7 @@ footer img {
 .calendar div {
     /* color: #ffd700 */
     display: flex;
+    flex-wrap: wrap;
 }
 .calendar div iframe{
     padding: 20px;
