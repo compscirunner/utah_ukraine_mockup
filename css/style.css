@@ -148,8 +148,12 @@ footer img {
     padding: 10px;
 }
 
-#calendar a {
+.calendar div {
     /* color: #ffd700 */
+    display: flex;
+}
+.calendar div iframe{
+    padding: 20px;
 }
 
 #aboutUs {
