@@ -13,12 +13,12 @@ body {
 }
 
 .help_orgs {
-    padding: 1em;
+    padding: .5em;
 }
 
 a {
     color: black;
-    font-size: larger;
+    font-family: calibri, sans-serif;
 }
 
 .help_orgs li {
