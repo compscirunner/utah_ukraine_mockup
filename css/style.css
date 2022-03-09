@@ -13,7 +13,7 @@ body {
 }
 
 .help_orgs {
-    font-family: calibri, sans-serif;
+    padding: .5em;
 }
 
 a {
@@ -26,7 +26,8 @@ a {
 }
 
 #org_name {
-    font-family: calibri, sans-serif;
+    font-family: calibri;
+    font-size: 2.2em;
     font-weight: bold;
 }
 
@@ -35,7 +36,7 @@ ul {
 }
 
 h2 {
-    font-family: calibri, sans-serif;
+    font-family: calibri;
     font-size: 200%;
 }
 
