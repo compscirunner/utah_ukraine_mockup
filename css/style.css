@@ -160,7 +160,7 @@ footer img {
 .eventList{
     flex-wrap: wrap;
     text-align:center;
-   padding: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
     border-style:groove;
     border-color:#0057b7;
     font-size: large;
