@@ -109,6 +109,7 @@ article ol {
 
 footer {
     display: flex;
+    background-color: #FCFFA4;
     justify-content: center;
 }
 
@@ -203,7 +204,7 @@ aside {
 .help_calendar{
     display: flex;
     flex-wrap: wrap;
-    background-color: #FFEEBB;
+    background-color: #FCFFA4;
     padding: 1em;
 
 }
@@ -211,7 +212,7 @@ aside {
     padding-bottom: .3em;
 }
 #help {
-    /* background-color: #FFEEBB; */
+    /* background-color: #FCFFA4; */
     padding: 1em;
 }
 
