@@ -47,7 +47,7 @@ header {
     align-items: center;
     background-color: #0057b7;
     font-size: x-large;
-    color: #ffd700;
+    color: #FFFFFF;
     padding: 0 1em;
     font-family: calibri, sans-serif;
     line-height: 3em;
@@ -109,6 +109,7 @@ article ol {
 
 footer {
     display: flex;
+    background-color: #FCFFA4;
     justify-content: center;
 }
 
@@ -174,7 +175,7 @@ footer img {
     text-decoration: underline;
 }
 #aboutUs {
-    background-color: #FFEEBB;
+    background-color: #FCFFA4;
     font-family: calibri, sans-serif;
     padding: 10px;
 
@@ -203,7 +204,7 @@ aside {
 .help_calendar{
     display: flex;
     flex-wrap: wrap;
-    background-color: #FFEEBB;
+    background-color: #FCFFA4;
     padding: 1em;
 
 }
@@ -211,7 +212,7 @@ aside {
     padding-bottom: .3em;
 }
 #help {
-    /* background-color: #FFEEBB; */
+    /* background-color: #FCFFA4; */
     padding: 1em;
 }
 
