@@ -310,8 +310,8 @@ help.calendar iframe {
     height: 100%;
 }
    
-    calendar img {
-    width: 80%;
+    .calendar img {
+    width: 35%;
     height:auto;
           
     }
